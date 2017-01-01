@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A089119B1E17FCD800A68BE0 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089119A1E17FCD800A68BE0 /* FacialExpression.swift */; };
 		A0B09FD01E16DA0700CEE212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B09FCF1E16DA0700CEE212 /* AppDelegate.swift */; };
 		A0B09FD21E16DA0700CEE212 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B09FD11E16DA0700CEE212 /* FaceViewController.swift */; };
 		A0B09FD51E16DA0700CEE212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B09FD31E16DA0700CEE212 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A089119A1E17FCD800A68BE0 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		A0B09FCC1E16DA0700CEE212 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B09FCF1E16DA0700CEE212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B09FD11E16DA0700CEE212 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +25,7 @@
 		A0B09FD61E16DA0700CEE212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0B09FD91E16DA0700CEE212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0B09FDB1E16DA0700CEE212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0B09FE41E16DB9600CEE212 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = FaceIt/FaceView.swift; sourceTree = "<group>"; };
+		A0B09FE41E16DB9600CEE212 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,6 @@
 		A0B09FC31E16DA0700CEE212 = {
 			isa = PBXGroup;
 			children = (
-				A0B09FE41E16DB9600CEE212 /* FaceView.swift */,
 				A0B09FCE1E16DA0700CEE212 /* FaceIt */,
 				A0B09FCD1E16DA0700CEE212 /* Products */,
 			);
@@ -57,8 +58,10 @@
 		A0B09FCE1E16DA0700CEE212 /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
+				A0B09FE41E16DB9600CEE212 /* FaceView.swift */,
 				A0B09FD11E16DA0700CEE212 /* FaceViewController.swift */,
 				A0B09FD31E16DA0700CEE212 /* Main.storyboard */,
+				A089119A1E17FCD800A68BE0 /* FacialExpression.swift */,
 				A0B09FE11E16DA4800CEE212 /* Supporting Files */,
 			);
 			path = FaceIt;
@@ -107,6 +110,7 @@
 				TargetAttributes = {
 					A0B09FCB1E16DA0700CEE212 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8C2J7D27LA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0B09FD21E16DA0700CEE212 /* FaceViewController.swift in Sources */,
+				A089119B1E17FCD800A68BE0 /* FacialExpression.swift in Sources */,
 				A0B09FD01E16DA0700CEE212 /* AppDelegate.swift in Sources */,
 				A0B09FE51E16DB9600CEE212 /* FaceView.swift in Sources */,
 			);
@@ -272,9 +277,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8C2J7D27LA;
 				INFOPLIST_FILE = FaceIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceIt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csPrivate.FaceIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,9 +290,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8C2J7D27LA;
 				INFOPLIST_FILE = FaceIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FaceIt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csPrivate.FaceIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -311,6 +318,7 @@
 				A0B09FE01E16DA0700CEE212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
